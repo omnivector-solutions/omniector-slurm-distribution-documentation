@@ -205,9 +205,9 @@ basic Slurm cluster:
 - ``slurm-core/series/``: overlays to define the OS of the Slurm components,
   the possible options are CentOS7 and Ubuntu Focal (20.04).
 - ``slurm-core/charms/``: overlays to change the source of the charms. By
-  default, the bundle gets from the ``latest/stable`` channel from Charmhub.
-  The overlays in this directory allows ut to change the source to either
-  ``latest/edge`` channel or from your local machine. The latter one is
+  default, the bundle gets them from the ``latest/stable`` channel from
+  Charmhub.  The overlays in this directory allows us to change the source to
+  either ``latest/edge`` channel or from your local machine. The latter one is
   specially useful for development, see :ref:`charm-development` for details.
 
 The ``slurm-addons`` directory contains overlays to extend SLURM with plugins:
